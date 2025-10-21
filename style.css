@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(246, 231, 219);
+    font-family: sans-serif;
+}
+.parent{
+    width: 500px;
+    height: 400px;
+    background-color: #ffffff;
+    /*وسط قرار گرفتن کادر */
+    margin: auto;
+    margin-top: 80px;
+    padding: 25px 0;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(142, 103, 6, 0.878);
+    border-radius: 8px;
+}
+.logo{
+    width: 150px;
+    /*وسط چین کردن عکس*/
+    display: block;
+    margin: auto;
+    border: 2px dotted burlywood;
+    /*برای گرد کردن تصویر*/
+    border-radius: 50%;
+}
+.title{
+    width: 180px;
+    margin: 25px auto;
+    font-size: 20px;
+    border-bottom: 5px solid burlywood;
+    color: rgb(97, 71, 4);
+}
+.desc{
+    text-align: center;
+    color: rgb(97, 71, 4);
+}
+.socials{
+    height: 60px;
+    background-color: rgb(246, 231, 219);
+    text-align: center;
+}
+.socials img{
+    width: 40px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
